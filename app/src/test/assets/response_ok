@@ -1,0 +1,25 @@
+{
+  "total": "150",
+  "data": [
+    {
+      "startDate": "Oct 05, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "Akron - Abernathy Construction Open House",
+      "loginRequired": false,
+      "url": "/guide/166682",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/79PYfygE5bDED8KIjwHQVOX5OSX5AGFgoJ411qgO/logo.png"
+    },
+    {
+      "startDate": "Oct 05, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "Belmont - Heathcliffe Construction Open House",
+      "loginRequired": false,
+      "url": "/guide/166613",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/mYCUTUx1lHgYIJvKtbFxlqrYWpmHuKLRFQMDlepP/logo.png"
+    }
+  ]
+}

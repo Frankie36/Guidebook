@@ -23,6 +23,14 @@ android {
         mavenCentral()
         google()
     }
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/test/assets/' ,'src/androidTest/assets/'] } }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
