@@ -1,7 +1,5 @@
 package com.mystique.guidebook.di.module;
 
-import android.content.Context;
-
 import com.mystique.guidebook.adapter.GuideAdapter;
 import com.mystique.guidebook.di.scopes.ActivityScope;
 
