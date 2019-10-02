@@ -1,6 +1,6 @@
-package com.mystique.guidebook.ui.adapter;
+package com.mystique.guidebook.adapter;
 
-import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,19 +12,23 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+import com.bumptech.glide.request.RequestOptions;
+import com.mystique.guidebook.Constants;
 import com.mystique.guidebook.R;
 import com.mystique.guidebook.model.Guide;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import javax.inject.Inject;
 
 public class GuideAdapter extends RecyclerView.Adapter<GuideAdapter.ViewHolder> {
 
-    private Context context;
     private List<Guide> guideList;
 
-    public GuideAdapter(Context context, List<Guide> guideList) {
-        this.context = context;
-        this.guideList = guideList;
+    @Inject
+    public GuideAdapter() {
+        this.guideList = new ArrayList<>();
     }
 
     @NonNull
@@ -37,17 +41,23 @@ public class GuideAdapter extends RecyclerView.Adapter<GuideAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Guide guide = guideList.get(position);
-        Glide.with(context)
-                .load(guide.url)
+
+        //display image using glide library
+        Glide.with(holder.itemView)
+                .load(guide.icon)
                 .placeholder(R.drawable.ic_placeholder)
+                .apply(RequestOptions.centerCropTransform())
                 .transition(DrawableTransitionOptions.withCrossFade())
                 .thumbnail(0.7f)
                 .into(holder.imgGuide);
 
         holder.tvName.setText(guide.name);
         holder.tvEndDate.setText(guide.endDate);
-        holder.tvCity.setText(guide.venue.city);
-        holder.tvState.setText(guide.venue.state);
+
+        //city and state don't always display data
+        //display "N/A" i.e Not Available when they do not
+        holder.tvCity.setText(!TextUtils.isEmpty(guide.venue.city) ? guide.venue.city : Constants.NA);
+        holder.tvState.setText(!TextUtils.isEmpty(guide.venue.state) ? guide.venue.state : Constants.NA);
     }
 
     @Override
@@ -68,4 +78,10 @@ public class GuideAdapter extends RecyclerView.Adapter<GuideAdapter.ViewHolder> 
             tvState = itemView.findViewById(R.id.tvState);
         }
     }
+
+    public void setData(List<Guide> guideList) {
+        this.guideList.addAll(guideList);
+        notifyDataSetChanged();
+    }
+
 }

@@ -9,7 +9,8 @@ public class GuideResponse {
     @SerializedName("total")
     @Expose
     public String total;
+
     @SerializedName("data")
     @Expose
-    public List<Guide> data = null;
+    public List<Guide> guideList = null;
 }

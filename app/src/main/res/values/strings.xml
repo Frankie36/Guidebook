@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Guidebook</string>
     <string name="action_settings">Settings</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="try_again">Try Again</string>
+    <string name="fetching_data">Fetching data…</string>
+    <string name="no_data">There\'s no data to display</string>
 </resources>

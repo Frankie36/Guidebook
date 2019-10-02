@@ -1,0 +1,155 @@
+{
+  "total": "150",
+  "data": [
+    {
+      "startDate": "Oct 03, 2019",
+      "objType": "guide",
+      "endDate": "Oct 04, 2019",
+      "name": "RuneFest 2019",
+      "loginRequired": false,
+      "url": "/guide/163780",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/Xxp9RPaLX8BxnDBKbhPpXioTaREeUjirc4nu0S27/logo.png"
+    },
+    {
+      "startDate": "Oct 03, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "The London Homebuilding & Renovating Show 2019",
+      "loginRequired": false,
+      "url": "/guide/153708",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/kPmVRd10vjjGV7F80m2Lt8KzJJpGPGfh7aPswe0m/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "Cedarville University Homecoming & Parents Weekend",
+      "loginRequired": false,
+      "url": "/guide/156696",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/e9qI7MBJg6ChJqNPMhlQuTNO706qZBbB3rrp3kEE/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "Northeastern Society of Plastic Surgery",
+      "loginRequired": false,
+      "url": "/guide/167145",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/nNQV68xGWfh3mkIsGC323buVnawjyhZqwx4IV3bo/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "Parents & Family Weekend",
+      "loginRequired": false,
+      "url": "/guide/161837",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/JAhhaA2c0Q0wpitZYZy3PLqpRzIDNw0Wjvk51IBh/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "FANA 2019 Annual Meeting",
+      "loginRequired": false,
+      "url": "/guide/154887",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/HQsIFEK9jMyu26CXyWs3LiNWjGyUBRoYN5eKdHo6/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 04, 2019",
+      "name": "Virtual Healthcare in the Mainstream",
+      "loginRequired": false,
+      "url": "/guide/167572",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/mSXdldiviPUK5cFUXBZY6jcMcmx2xV7Mn109k53l/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "Garnet Weekend 2019 | Swarthmore College",
+      "loginRequired": false,
+      "url": "/guide/165248",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/RTG7k0xFENi9QvIqdLcWbfnkSfymq4FOJdmGYiMo/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "W&L Parents and Family Weekend 2019",
+      "loginRequired": false,
+      "url": "/guide/167013",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/qBHryIJNCWzJpStYhdvnxkFqjvCu05a1SChjqu3L/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "Samford Family Weekend 2019",
+      "loginRequired": false,
+      "url": "/guide/154666",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/RjG6OELhnWp1cSbbo6rFzKL73215G8i7M7gAoGWh/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 06, 2019",
+      "name": "UVM 2019 WEEKEND",
+      "loginRequired": false,
+      "url": "/guide/158814",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/mVBPR1AuMkgxes9pZiabxqFIDSp1OIGbpboG8eUC/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 04, 2019",
+      "name": "Undergraduate Open Day 5 October 2019",
+      "loginRequired": false,
+      "url": "/guide/158526",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/Q1sY1CqfqW7GtcttVcW9htiDybdYJ8r5eTmae0nY/logo.png"
+    },
+    {
+      "startDate": "Oct 04, 2019",
+      "objType": "guide",
+      "endDate": "Oct 04, 2019",
+      "name": "Undergraduate Open Day, 5 October 2019",
+      "loginRequired": false,
+      "url": "/guide/165163",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/iY4q933IiG0Ep98pAW1bzQKFVlDJ8LdWD0h6cJiD/logo.png"
+    },
+    {
+      "startDate": "Oct 05, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "Akron - Abernathy Construction Open House",
+      "loginRequired": false,
+      "url": "/guide/166682",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/79PYfygE5bDED8KIjwHQVOX5OSX5AGFgoJ411qgO/logo.png"
+    },
+    {
+      "startDate": "Oct 05, 2019",
+      "objType": "guide",
+      "endDate": "Oct 05, 2019",
+      "name": "Belmont - Heathcliffe Construction Open House",
+      "loginRequired": false,
+      "url": "/guide/166613",
+      "venue": {},
+      "icon": "https://s3.amazonaws.com/media.guidebook.com/service/mYCUTUx1lHgYIJvKtbFxlqrYWpmHuKLRFQMDlepP/logo.png"
+    }
+  ]
+}
