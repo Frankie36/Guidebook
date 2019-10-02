@@ -1,10 +1,10 @@
 # Guidebook
-A simple app demonstrating the use of:
--Retrofit to make http calls
--Dagger for dependency injection
--Java serialization/deserialization using Gson
--Image fetching using Glide
--Retrofit Unit Tests using Robolectric
+A simple app demonstrating the use of:<br>
+-Retrofit to make http calls <br>
+-Dagger for dependency injection<br>
+-Java serialization/deserialization using Gson<br>
+-Image fetching using Glide<br>
+-Retrofit Unit Tests using Robolectric<br>
 
 ![alt text](https://github.com/Frankie36/Guidebook/blob/master/app/src/androidTest/assets/screen_one.png)
 
