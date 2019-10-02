@@ -6,6 +6,6 @@ A simple app demonstrating the use of:<br>
 -Image fetching using Glide<br>
 -Retrofit Unit Tests using Robolectric<br>
 
-![alt text](https://github.com/Frankie36/Guidebook/blob/master/app/src/androidTest/assets/screen_one.png)
+![alt text](https://github.com/Frankie36/Guidebook/blob/master/app/src/test/assets/screen_one.png)
 
-![alt text](https://github.com/Frankie36/Guidebook/blob/master/app/src/androidTest/assets/screen_two.png)
+![alt text](https://github.com/Frankie36/Guidebook/blob/master/app/src/test/assets/screen_two.png)
